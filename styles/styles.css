@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins";
+  overflow-x: hidden;
 }
 
 header {
@@ -126,7 +127,6 @@ footer a{
   box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
   background: #1e1e1e;
   position: relative;
-  margin-bottom: 63px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -139,6 +139,7 @@ footer a{
   width: 410px;
   height: 412px;
   margin-top: 40px;
+  margin-left: 400px;
 }
 .home .hi-im-juan-frontend-developer-sub242 {
   font-weight: 700;
@@ -181,10 +182,9 @@ footer a{
   box-sizing: border-box;
 }
 .home .container-1 {
-  margin: 0 88px 0 69px;
+  margin: 0 88px 0 8px;
   display: flex;
   justify-content: space-between;
-  width: 1123px;
   box-sizing: border-box;
 }
 .home .container-2 {
