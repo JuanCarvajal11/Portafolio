@@ -1,0 +1,201 @@
+body {
+  font-family: "Poppins";
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Para asegurarse de que el header esté siempre encima de otros elementos */
+}
+
+footer{
+  margin-top: 60px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+
+footer a{
+  color: red;
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+}
+
+.home-view a {
+  text-decoration: none;
+}
+
+.home-view .container-3 {
+  margin: 2px 0 5px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.home-view .en {
+  overflow-wrap: break-word;
+  font-weight: 700;
+  font-size: 12.8px;
+  color: #ffffff;
+}
+.home-view .back-ground {
+  background: #1e1e1e;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+}
+.home-view .home_header a {
+  margin-bottom: 3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.home-view .home_header {
+  margin-top: 1px;
+}
+
+.home-view .aboutme a {
+  margin-bottom: 3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+}
+.home-view .skills a {
+  margin-bottom: 3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+}
+.home-view .projects_header a {
+  margin-bottom: 3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+}
+.home-view .contact a {
+  margin-bottom: 3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+}
+.home-view .es {
+  margin-right: 16.4px;
+  overflow-wrap: break-word;
+  font-weight: 700;
+  font-size: 12.8px;
+  color: #ffffff;
+}
+
+.home-view .juan {
+  width: 694.5px;
+}
+
+.home-view .juan a {
+  margin: 3px 11.5px 0 0;
+  display: inline-block;
+  font-size: 15px;
+  overflow-wrap: break-word;
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+  margin-left: 100px;
+}
+.home-view .header {
+  box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
+  background: #1e1e1e;
+  position: relative;
+  margin-bottom: 63px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 23px 51.7px 20px 42px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.home .foto-de-portafolio-1 {
+  background: url("../assets/images/ImagenPrincipal.webp") 50% / cover no-repeat;
+  width: 410px;
+  height: 412px;
+  margin-top: 40px;
+}
+.home .hi-im-juan-frontend-developer-sub242 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.333;
+  color: #ff0000;
+}
+.home .hi-im-juan-frontend-developer {
+  margin-bottom: 20px;
+  overflow-wrap: break-word;
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffffff;
+}
+.home .githubicon-photoroom-1 {
+  background: url("../assets/images/GitHubIcon.webp") 50% / cover no-repeat;
+  margin-right: 10px;
+  width: 57px;
+  height: 48px;
+}
+
+.home .hi-im-juan-frontend-developer-sub-1 {
+  color: #ff0000;
+}
+.home .linkedin-photoroom-1 {
+  background: url("../assets/images/LinkedinIcon.webp") 50% / cover no-repeat;
+  width: 57px;
+  height: 48px;
+}
+.home .diseo-sin-ttulo-11 {
+  background: url("../assets/images/DiseñoCorreo.webp") 50% / cover no-repeat;
+  margin: 1px 0 2px 0;
+  width: 45px;
+  height: 45px;
+}
+.home .container {
+  display: flex;
+  flex-direction: row;
+  width: 169px;
+  box-sizing: border-box;
+}
+.home .container-1 {
+  margin: 0 88px 0 69px;
+  display: flex;
+  justify-content: space-between;
+  width: 1123px;
+  box-sizing: border-box;
+}
+.home .container-2 {
+  margin: 94px 0 51px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.home {
+  margin-left: 110px;
+  margin-top: 80px;
+}

@@ -1,0 +1,53 @@
+@media only screen and (max-width: 996px) {
+
+.home-view .juan a {
+    margin-left: 0px;
+}  
+.home-view .home_header,
+  .home-view .aboutme,
+  .home-view .projects_header,
+  .home-view .skills,
+  .home-view .contact{
+    display: none;
+}
+
+.home-view .es, .en{
+    margin-left: -80px;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.hi-im-juan-frontend-developer{
+    margin-top: -50px;
+    margin-right: 140px;
+}
+
+.container{
+    margin-left: -150px;
+}
+
+.foto-de-portafolio-1{
+    margin-left: -80px;
+}
+
+.about_me .about_container .about_content {
+    margin-left: 0px;
+}
+
+.projects .project_view .project_card {
+    padding: 0px;
+}
+
+.about_me .about_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_me .about_container .about_content{
+    width: 350px;
+}
+
+}
